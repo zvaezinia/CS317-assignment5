@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Banner Example</title>
+</head>
+<body>
+    <!-- SVG Banner -->
+    <svg width="100%" height="300">
+        <!-- Rectangle in a soft pink -->
+        <rect x="10" y="10" width="100" height="50" fill="#FADADD"></rect>
+        <!-- Circle in a vibrant fuchsia -->
+        <circle cx="200" cy="75" r="40" fill="#FF69B4"></circle>
+        <!-- Ellipse in a light lavender -->
+        <ellipse cx="350" cy="75" rx="50" ry="25" fill="#E6E6FA"></ellipse>
+        <!-- Abstract Shape in a gentle coral -->
+        <polygon points="500,50 530,100 470,100" fill="#FFC0CB"></polygon>
+        <!-- Adding another simple shape, a star in a soft yellow for a touch of contrast -->
+        <polygon points="600,75 610,105 650,105 620,125 630,155 600,135 570,155 580,125 550,105 590,105" fill="#FDFD96"></polygon>
+    </svg>
+
+    <!-- Content Below the Banner -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Page Two</a></li>
+            <li><a href="#">Page Three</a></li>
+        </ul>
+    </nav>
+
+    <h1>Assignment 5</h1>
+    <h2 class="css-question">How to Apply CSS to HTML</h2>
+    <p class="css-question">
+        If you want to apply CSS to HTML, you need to use a CSS stylesheet. 
+        A CSS stylesheet is a separate file that contains the CSS code. Here is an example of linking to an external CSS file called styles.css. Add this line to the head of your HTML document:
+        <pre>
+            &lt;link rel="stylesheet" href="styles.css" /&gt;
+        </pre>
+    </p>
+    <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+    <p class="js-question">
+        To use JavaScript in a webpage, you can either include it directly within the HTML document or link to an external JavaScript file. Both methods involve the use of the &lt;script&gt; tag.
+    </p>
+    <p class="js-question">
+        For direct inclusion, place your JavaScript code between the opening and closing &lt;script&gt; tags. This is typically done just before the closing &lt;/body&gt; tag. Here’s an example:
+        <pre>
+            &lt;script&gt;
+                // Your JavaScript code here
+            &lt;/script&gt;
+        </pre>
+    </p>
+    <p class="js-question">
+        To link to an external JavaScript file, use the &lt;script&gt; tag with the src attribute. This attribute's value is the path to your JavaScript file. Again, this is often placed near the end of the &lt;body&gt; section. Example:
+        <pre>
+            &lt;script src="path/to/your/script.js"&gt;&lt;/script&gt;
+        </pre>
+        Ensure the path to your JavaScript file is correct. This method helps keep your HTML and JavaScript code separate, which can make your projects easier to manage as they grow in complexity.
+    </p>
+</body>
+</html>
